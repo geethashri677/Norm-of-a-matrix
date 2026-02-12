@@ -15,9 +15,13 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # 1-Norm of a Matrix
 ```
 import numpy as np
+
 mat=np.array(eval(input()),dtype=float)
+
 norm=np.linalg.norm(mat,1)
+
 print(f"{norm:.2f}")
+
 ```
 
 
@@ -25,9 +29,13 @@ print(f"{norm:.2f}")
 # 2-Norm of a Matrix
 ```
 import numpy as np
+
 A=eval(input())
+
 A=np.array(A,dtype=float)
+
 norm=np.linalg.norm(A,2)
+
 print(f"{norm:.2f}")
 
 ```
@@ -38,9 +46,13 @@ print(f"{norm:.2f}")
 
 ```
 import numpy as np
+
 mat=np.array(eval(input()))
+
 ans=np.linalg.norm(mat,np.inf)
+
 Norm="{:.2f}".format(ans)
+
 print(Norm)
 
 
